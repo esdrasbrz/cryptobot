@@ -2,7 +2,9 @@ FROM freqtradeorg/freqtrade:stable
 
 WORKDIR /app
 
-COPY NostalgiaForInfinity/configs /app/NostalgiaForInfinity/configs
-COPY user_data /app/user_data
+COPY --chown=ftuser:ftuser NostalgiaForInfinity/configs /app/NostalgiaForInfinity/configs
+COPY --chown=ftuser:ftuser user_data /app/user_data
+COPY --chown=ftuser:ftuser build_config.py entrypoint.sh /app/
 
-CMD ["trade", "--config", "/app/user_data/config.json", "--db-url", "sqlite:////data/tradesv3.dry_run.sqlite"]
+ENTRYPOINT ["./entrypoint.sh"]
+CMD ["--config", "/app/user_data/config.json"]
