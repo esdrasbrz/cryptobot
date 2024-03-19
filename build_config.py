@@ -7,7 +7,41 @@ config_template = {
     "exchange": {
         "name": "binance",
         "key": "",
-        "secret": ""
+        "secret": "",
+        "ccxt_config": {
+            "enableRateLimit": True,
+            "rateLimit": 60,
+            "options": {
+                "brokerId": None,
+                "partner": {
+                    "spot": {
+                        "id": None,
+                        "key": None
+                    },
+                    "future": {
+                        "id": None,
+                        "key": None
+                    }
+                }
+            }
+            },
+            "ccxt_async_config": {
+            "enableRateLimit": True,
+            "rateLimit": 60,
+            "options": {
+                "brokerId": None,
+                "partner": {
+                    "spot": {
+                        "id": None,
+                        "key": None
+                    },
+                    "future": {
+                        "id": None,
+                        "key": None
+                    }
+                }
+            }
+        }
     },
     "telegram": {
         "enabled": True,
