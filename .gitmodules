@@ -1,3 +1,6 @@
 [submodule "NostalgiaForInfinity"]
 	path = NostalgiaForInfinity
 	url = git@github.com:iterativv/NostalgiaForInfinity.git
+[submodule "freqtrade_strs"]
+	path = freqtrade_strs
+	url = git@github.com:ssssi/freqtrade_strs.git
