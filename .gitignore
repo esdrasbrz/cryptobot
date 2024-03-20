@@ -230,3 +230,5 @@ pyrightconfig.json
 user_data/config-private*.json
 
 *.sqlite*
+
+user_data/data
