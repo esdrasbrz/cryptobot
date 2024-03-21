@@ -1,12 +1,12 @@
 {
   "strategy": "E0V1E",
-  "max_open_trades": 3,
+  "max_open_trades": 2,
   "stake_currency": "USDT",
   "stake_amount": "unlimited",
   "tradable_balance_ratio": 0.99,
   "fiat_display_currency": "CNY",
   "dry_run": true,
-  "dry_run_wallet": 60,
+  "dry_run_wallet": 1000,
   "cancel_open_orders_on_exit": false,
   "use_exit_signal": true,
   "exit_profit_only": false,
@@ -41,7 +41,7 @@
     },
     "ccxt_async_config": {
       "enableRateLimit": true,
-      "rateLimit": 200
+      "rateLimit": 50
     },
     "pair_whitelist": [
     "PORTO/USDT",
