@@ -11,28 +11,28 @@
       "max_open_trades": 2
     },
     "buy": {
-      "buy_cti_32": -0.64,
-      "buy_rsi_32": 28,
-      "buy_rsi_fast_32": 30,
-      "buy_sma15_32": 0.908
+      "buy_cti_32": -0.44,
+      "buy_rsi_32": 33,
+      "buy_rsi_fast_32": 33,
+      "buy_sma15_32": 0.972
     },
     "sell": {
       "sell_cci": 90,
       "sell_loss_cci": 148,
       "sell_loss_cci_profit": -0.04,
-      "sell_fastx": 76
+      "sell_fastx": 70
     },
     "protection": {},
     "roi": {
-      "0": 0.176,
-      "11": 0.052,
-      "21": 0.015,
-      "89": 0
+      "0": 0.11199999999999999,
+      "29": 0.053,
+      "85": 0.015,
+      "202": 0
     },
     "stoploss": {
-      "stoploss": -0.322
+      "stoploss": -0.316
     }
   },
   "ft_stratparam_v": 1,
-  "export_time": "2024-03-21 18:04:19.477910+00:00"
+  "export_time": "2024-03-21 19:20:49.446732+00:00"
 }
