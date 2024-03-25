@@ -1,10 +1,4 @@
 {
-  "strategy": "NostalgiaForInfinityX4",
-  "add_config_files": [
-    "../NostalgiaForInfinity/configs/trading_mode-spot.json",
-    "../NostalgiaForInfinity/configs/pairlist-volume-binance-usdt.json",
-    "../NostalgiaForInfinity/configs/blacklist-binance.json",
-    "../NostalgiaForInfinity/configs/exampleconfig.json",
-    "config-private.json"
-  ]
+  "strategy": "E0V1E",
+  "add_config_files": ["config-E0V1E.json", "config-private.json"]
 }

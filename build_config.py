@@ -3,7 +3,7 @@ import json
 
 config_template = {
     "dry_run": True,
-    "db_url": "sqlite:////data/tradesv3.dry_run.sqlite",
+    "db_url": "sqlite:////data/tradesv3-E0V1E.dry_run.sqlite",
     "exchange": {
         "name": "binance",
         "key": "",
