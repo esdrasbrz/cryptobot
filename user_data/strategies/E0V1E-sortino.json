@@ -1,0 +1,38 @@
+{
+  "strategy_name": "E0V1E",
+  "params": {
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 2
+    },
+    "buy": {
+      "buy_cti_32": -0.39,
+      "buy_rsi_32": 34,
+      "buy_rsi_fast_32": 22,
+      "buy_sma15_32": 0.929
+    },
+    "sell": {
+      "sell_cci": 90,
+      "sell_loss_cci": 148,
+      "sell_loss_cci_profit": -0.04,
+      "sell_fastx": 66
+    },
+    "protection": {},
+    "roi": {
+      "0": 0.254,
+      "40": 0.078,
+      "80": 0.011,
+      "156": 0
+    },
+    "stoploss": {
+      "stoploss": -0.097
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2024-03-21 13:55:46.859549+00:00"
+}
