@@ -29,7 +29,7 @@ class E0V1E(IStrategy):
         'stoploss_on_exchange_interval': 60,
         'stoploss_on_exchange_market_ratio': 0.99
     }
-    stoploss = -0.1
+    stoploss = -0.25
 
     is_optimize_32 = True
     buy_rsi_fast_32 = IntParameter(20, 70, default=45, space='buy', optimize=is_optimize_32)
