@@ -1,4 +1,4 @@
-FROM freqtradeorg/freqtrade:stable
+FROM freqtradeorg/freqtrade:2024.2
 
 WORKDIR /app
 
